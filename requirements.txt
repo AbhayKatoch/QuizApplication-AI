@@ -1,0 +1,30 @@
+
+Django>=4.2,<5.0
+djangorestframework>=3.15.2
+
+
+langchain
+langchain-core
+langchain-community
+langchain-groq
+# ================================
+# Data Validation & Parsing
+# ================================
+pydantic>=2.9.0
+pydantic-core>=2.23.0
+
+# ================================
+# Environment Management
+# ================================
+python-dotenv>=1.0.1
+
+django-cors-headers>=4.3.1
+
+# ================================
+# Development Utilities
+# ================================
+black>=24.4.2            # Code formatter
+flake8>=7.1.1            # Linter
+requests>=2.32.3         # For any external API calls
+pytest>=8.3.2            # Unit testing
+pytest-django>=4.9.0     # Django test integration
