@@ -27,4 +27,5 @@ black>=24.4.2            # Code formatter
 flake8>=7.1.1            # Linter
 requests>=2.32.3         # For any external API calls
 pytest>=8.3.2            # Unit testing
-pytest-django>=4.9.0     # Django test integration
+pytest-django>=4.9.0
+gunicorn
