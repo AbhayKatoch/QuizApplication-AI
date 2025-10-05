@@ -1,4 +1,4 @@
-# 📝 Online Quiz Application  
+# Online Quiz Application  
 
 A modern **full-stack web application** that enables users to take **personalized quizzes** based on their chosen role, difficulty level, and question length.  
 
