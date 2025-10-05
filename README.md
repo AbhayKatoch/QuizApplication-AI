@@ -1,6 +1,6 @@
 # Online Quiz Application  
 
-A modern **full-stack web application** that enables users to take **personalized quizzes** based on their chosen role, difficulty level, and question length.  
+A modern **full-stack web application** that enables users to take **personalized quizzes** based on their chosen role, difficulty level, and quiz length.  
 
 Built with **Django (REST API)** + **LangChain** on the backend and **React + Tailwind CSS + ShadCN UI** on the frontend, the app delivers a smooth and interactive quiz experience.  
 
