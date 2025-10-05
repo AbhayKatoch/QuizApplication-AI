@@ -47,9 +47,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://quiz-application-ai.vercel.app/",
-    "http://localhost:5173",
-    "http://localhost:5174",
+    "quiz-application-ai.vercel.app",
 ]
 
 
