@@ -64,5 +64,5 @@ chain = prompt | model | parser
 
 def generate_quiz(role: str, length: int = 10, difficulty: str = "medium"):
     raw_response = chain.invoke({"role": role, "difficulty": difficulty, "n": length})
-    return raw_response
+    return raw_response.dict()
 
