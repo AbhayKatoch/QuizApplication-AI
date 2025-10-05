@@ -47,7 +47,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://quizapp-frontend.onrender.com",
+    "https://quiz-application-ai.vercel.app/",
     "http://localhost:5173",
     "http://localhost:5174",
 ]
