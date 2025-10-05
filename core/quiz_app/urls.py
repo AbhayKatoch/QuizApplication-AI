@@ -5,4 +5,5 @@ urlpatterns = [
     path("generate_quiz/", views.generate_quiz_view),
     path("submit_quiz/", views.submit_quiz_view),
     path("quiz/<uuid:quiz_id>/", views.get_quiz_view),
+    path("ping/", views.ping_view), #for cron job
 ]

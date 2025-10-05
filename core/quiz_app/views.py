@@ -95,3 +95,9 @@ def get_quiz_view(request, quiz_id):
         "role": quiz.role,
         "questions": questions_public
     })
+
+
+#For Cron Job
+@api_view(['GET'])
+def ping_view(request):
+    return Response({"status": "ok", "time": timezone.now()})
