@@ -5,6 +5,7 @@ from .models import QuizTemplate, Attempt
 from .ai_service import generate_quiz
 from django.utils import timezone
 from django.db.models import Q
+import json
 
 @api_view(['POST'])
 def generate_quiz_view(request):
@@ -18,7 +19,7 @@ def generate_quiz_view(request):
         data = generate_quiz(role=role, difficulty=difficulty, length=length)
     except Exception as e:
         return Response({"error": str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-    
+    questions_json = json.loads(json.dumps(data['questions']))
     qs = QuizTemplate.objects.create(
         role=role,
         difficulty=difficulty,
