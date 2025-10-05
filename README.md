@@ -1,50 +1,59 @@
-# Online Quiz Application  
+# 📝 Online Quiz Application  
 
-A modern full-stack web application that allows users to take **personalized quizzes** based on their selected role, difficulty, and question length.  
-Built with **Django (REST API)** on the backend and **React + Tailwind + ShadCN UI** on the frontend, it delivers a seamless and interactive quiz experience.
+A modern **full-stack web application** that enables users to take **personalized quizzes** based on their chosen role, difficulty level, and question length.  
 
----
-
-## 🌐 **Deployed Links**
-
-- **Frontend (React App):** [https://quiz-application-ai.vercel.app/](https://quiz-application-ai.vercel.app/)  
-- **Backend (Django API):** [https://quizapplication-ai.onrender.com/api](https://quizapplication-ai.onrender.com)
+Built with **Django (REST API)** + **LangChain** on the backend and **React + Tailwind CSS + ShadCN UI** on the frontend, the app delivers a smooth and interactive quiz experience.  
 
 ---
 
-## 🚀 **Overview**
+## 📂 Project Structure  
 
-The platform enables users to:
-- Choose a **role**, **difficulty level**, and **number of questions**.
-- Attempt multiple-choice questions one by one.
-- Navigate easily using “Next” and “Previous” buttons.
-- Submit answers and instantly view their **score**.
-- See which questions they got **right** or **wrong**.
+This repository contains two main folders:  
+- **`quiz_frontend/`** → React + Tailwind + ShadCN UI (frontend)  
+- **`core/`** → Django + REST API + LangChain (backend)  
 
 ---
 
-## 🛠️ **Tech Stack**
+## 🌐 Deployed Links  
 
-| Layer | Technology |
-|--------|-------------|
+- **Frontend (React App):** [quiz-application-ai.vercel.app](https://quiz-application-ai.vercel.app/)  
+- **Backend (Django API):** [quizapplication-ai.onrender.com/api](https://quizapplication-ai.onrender.com)  
+
+---
+
+## 🚀 Overview  
+
+The platform allows users to:  
+- Choose a **role**, **difficulty level**, and **number of questions**.  
+- Attempt multiple-choice questions one by one.  
+- Navigate easily using **Next** and **Previous** buttons.  
+- Submit answers and instantly view their **score**.  
+- Review which questions they got **right** or **wrong**.  
+
+---
+
+## 🛠️ Tech Stack  
+
+| Layer        | Technology |
+|--------------|-------------|
 | **Frontend** | React, Tailwind CSS, ShadCN UI |
-| **Backend** | Django, Django REST Framework |
+| **Backend**  | Django, Django REST Framework |
 | **Database** | SQLite |
-| **Testing** | Django TestCase & DRF Test Client |
-| **Optional Extension** | LangChain (AI-based quiz generation) |
+| **Testing**  | Django TestCase & DRF Test Client |
+| **AI Service** | LangChain (AI-powered quiz generation) |
 
 ---
 
-## ✨ **Key Features**
+## ✨ Key Features  
 
 - Role-based and difficulty-based quiz generation.  
 - Timer for each quiz session.  
-- Result screen showing correct and incorrect answers.  
-- Modern, responsive UI with ShadCN components.  
+- Result screen with correct/incorrect answer breakdown.  
+- Modern, responsive UI using ShadCN components.  
 - Comprehensive backend test cases for scoring logic.  
 
 ---
 
-## Thank You
+##  Thank You  
 
-
+Thank you for checking out this project!  
